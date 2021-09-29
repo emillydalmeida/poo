@@ -2,24 +2,13 @@
 
 using namespace std;
 
-int main(){
+auto soma(auto a, auto b)
+{
+    return  a + b;
+}
 
-    int b, c, soma;
-
-    cin >> b;
-    cin >> c;
-
-    soma= b+c;
-
-    if (soma%2==0)
-    {
-        cout << "Bino";
-    }
-    else
-    {
-        cout << "Cino";
-    }
-    
-    
+int main()
+{
+    std :: cout << soma(5, 6) << '\n';
     return 0;
 }
