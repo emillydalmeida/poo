@@ -258,10 +258,6 @@ void ordenar( vector<int> vetor)
     }
 }
 
-void exclusivos(vector<int> vetor)
-{
-    
-}
 
 
 int main()
