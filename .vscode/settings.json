@@ -3,6 +3,11 @@
     "files.associations": {
         "iostream": "cpp",
         "ostream": "cpp"
+=======
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "*.tcc": "cpp"
+>>>>>>> 883caeedeaa73e39eca2b5041ba3763915e4c03e
     }
 =======
     "C_Cpp.errorSquiggles": "Enabled",
