@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "files.associations": {
         "iostream": "cpp",
         "ostream": "cpp"
     }
+=======
+    "C_Cpp.errorSquiggles": "Enabled",
+    "cmake.configureOnOpen": false
+>>>>>>> 82b14089f062c03eaa9914926cb17dbb71d56753
 }
