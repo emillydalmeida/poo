@@ -43,7 +43,7 @@ struct Lapiseira
     {
         if(this->grafite != nullptr)
         {
-            std::cout << "Dirigindo com: " << grafite << std::endl;
+            std::cout << "Escrevendo com: " << grafite << std::endl;
         }
         else
         {

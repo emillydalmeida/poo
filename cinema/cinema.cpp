@@ -1,6 +1,6 @@
-#include<iostream>
-#include<vector>
-#include<memory>
+#include <iostream>
+#include <vector>
+#include <memory>
 
 using namespace std;
 
@@ -14,7 +14,10 @@ private:
 
 public:
 
-    Pessoa pessoa(string id, string telefone);
+    Pessoa (string id, string telefone){
+        this->id = id;
+        this->telefone = telefone;
+    }
 
     string get_id()
     {
@@ -119,4 +122,7 @@ public:
     }
 };
 
+int main (){
+    return 0;
+}
 
